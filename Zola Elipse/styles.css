@@ -98,10 +98,10 @@ body{
     flex-wrap: wrap;
 
     background-color: black;
-    animation-name: body-background;
+   /* animation-name: body-background;
     animation-duration: 2s;
     animation-delay: 3s;
-    animation-fill-mode: forwards;
+    animation-fill-mode: forwards;*/
 }
 
 header{
@@ -152,9 +152,9 @@ header{
     height: 60px;
     width: 60px;
     transition: .2s;
-    animation-name: shrink;
+  /*  animation-name: shrink;
     animation-duration: 2s;
-    animation-delay: .5s;
+    animation-delay: .5s;*/
 }
 
 .logo-small:active{
@@ -168,7 +168,7 @@ header{
     margin-top: 100px;
     height: auto;
     width: 100vw;
-    opacity: 0;
+    opacity: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -256,7 +256,7 @@ header{
 
 .project-content{
     margin-top: 100px;
-    opacity: 0;
+    opacity: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -365,7 +365,7 @@ header{
     width: 100vw;
     height: 100vh;
     margin-top: 100px;
-    opacity: 0;
+    opacity: 1;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -387,7 +387,7 @@ header{
 .contact-content{
     width: 100vw;
     height: 100vh;
-    opacity: 0;
+    opacity: 1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -598,7 +598,7 @@ header{
     }
 }
 
-@keyframes shrink{
+/*@keyframes shrink{
     0%{
         opacity: 1;
         height: 600px;
@@ -609,7 +609,7 @@ header{
     100%{
         opacity: 1;
     }
-}
+}*/
 
 @keyframes led{
     0%{
@@ -624,7 +624,7 @@ header{
     }
 }
 
-@keyframes body-background{
+/*@keyframes body-background{
     100%{
         background-color: #0a0313;  
     }
@@ -634,4 +634,4 @@ header{
     100%{
         opacity: 1;
     }
-}
+}*/
