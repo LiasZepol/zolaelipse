@@ -173,7 +173,6 @@ header{
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    flex-direction: row;
     animation-name: apear;
     animation-duration: 3s;
     animation-delay: 3s;
