@@ -598,7 +598,7 @@ header{
     }
 }
 
-@keyframes shrink{
+/*@keyframes shrink{
     0%{
         opacity: 1;
         height: 600px;
@@ -609,7 +609,7 @@ header{
     100%{
         opacity: 1;
     }
-}
+}*/
 
 @keyframes led{
     0%{
