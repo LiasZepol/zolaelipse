@@ -143,12 +143,12 @@ header{
 
 }
 
-.logo-header:active{
+/*.logo-header:active{
     height: 75px;
     width: 75px;
     transition-delay: 2s;
     animation: latidos 0s none;
-}
+}*/
 
 .logo-small{
     margin-top: 2px;
