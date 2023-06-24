@@ -175,7 +175,6 @@ header{
     flex-wrap: wrap;
     animation-name: apear;
     animation-duration: 3s;
-    animation-delay: 3s;
     animation-fill-mode: forwards;
 }
 .music-container{
@@ -263,7 +262,6 @@ header{
     flex-direction: column;
     animation-name: apear;
     animation-duration: 3s;
-    animation-delay: 3s;
     animation-fill-mode: forwards
 }
 
@@ -372,7 +370,6 @@ header{
     align-items: center;
     animation-name: apear;
     animation-duration: 3s;
-    animation-delay: 3s;
     animation-fill-mode: forwards;
 }
 
@@ -393,7 +390,6 @@ header{
     align-items: center;
     animation-name: apear;
     animation-duration: 3s;
-    animation-delay: 3s;
     animation-fill-mode: forwards
 }
 
