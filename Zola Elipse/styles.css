@@ -100,7 +100,7 @@ body{
     background-color: black;
     animation-name: body-background;
     animation-duration: 2s;
-    animation-delay: 3s;
+    /*animation-delay: 3s;*/
     animation-fill-mode: forwards;
 }
 
@@ -125,8 +125,8 @@ header{
               inset 0 0 2.6rem #2a0456;
     z-index: 1;
     animation-name: led;
-    animation-duration: 4s;
-    animation-delay: .5s;
+    animation-duration: 2s;
+    /*animation-delay: .5s;*/
     animation-fill-mode: forwards;
 }
 
