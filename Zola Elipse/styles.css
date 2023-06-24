@@ -139,6 +139,8 @@ header{
     justify-content: center;
     align-items: center;
     background-color: black;
+    animation: latidos 1s infinite;
+
 }
 
 .logo-header:active{
@@ -598,18 +600,11 @@ header{
     }
 }
 
-/*@keyframes shrink{
-    0%{
-        opacity: 1;
-        height: 600px;
-        width: 600px;
-        align-items: center;
-        transform: translateY(50vh);
-    }
-    100%{
-        opacity: 1;
-    }
-}*/
+@keyframes latidos {
+    from { transform: none; }
+    50% { transform: scale(1.4); }
+    to { transform: none; }
+}
 
 @keyframes led{
     0%{
