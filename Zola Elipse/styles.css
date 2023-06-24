@@ -139,7 +139,7 @@ header{
     justify-content: center;
     align-items: center;
     background-color: black;
-    animation: latidos 1s infinite;
+    animation: latidos 2s infinite;
 
 }
 
@@ -602,7 +602,7 @@ header{
 
 @keyframes latidos {
     from { transform: none; }
-    50% { transform: scale(1.4); }
+    50% { transform: scale(1.2); }
     to { transform: none; }
 }
 
