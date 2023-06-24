@@ -139,6 +139,12 @@ header{
     justify-content: center;
     align-items: center;
     background-color: black;
+    box-shadow: 0 0 .4rem #fff,
+              0 0 .4rem #dd5bf7,
+              0 0 4rem #2a0456,
+              0 0 1.6rem #2a0456,
+              0 0 5.6rem #2a0456,
+              inset 0 0 2.6rem #2a0456;
     animation: latidos 2s infinite;
 
 }
