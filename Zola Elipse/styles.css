@@ -99,7 +99,7 @@ body{
 
     background-color: black;
     animation-name: body-background;
-    animation-duration: 2s;
+    animation-duration: 3s;
     animation-delay: 1s;
     animation-fill-mode: forwards;
 }
@@ -125,7 +125,7 @@ header{
               inset 0 0 2.6rem #2a0456;
     z-index: 1;
     animation-name: led;
-    animation-duration: 3s;
+    animation-duration: 2s;
     /*animation-delay: .5s;*/
     animation-fill-mode: forwards;
 }
@@ -610,11 +610,9 @@ header{
 @keyframes led{
     0%{
         width: 0;
-    }
-    45%{
-        width: 0;
         opacity: .9;
     }
+
     100%{
         opacity: .9;
     }
