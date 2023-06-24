@@ -146,6 +146,7 @@ header{
               0 0 5.6rem #2a0456,
               inset 0 0 2.6rem #2a0456;
     animation: latidos 2s infinite;
+    animation-delay: 2s;
 
 }
 
