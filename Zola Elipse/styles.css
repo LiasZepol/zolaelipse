@@ -446,6 +446,21 @@ header{
     margin-right: 15px;
 }
 
+.tienda-content{
+    width: 100vw;
+    height: 100vh;
+    margin-top: 100px;
+    opacity: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    animation-name: apear;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+
 
 
 ::-webkit-scrollbar{
