@@ -462,8 +462,8 @@ header{
 }
     
     .product-container { 
-        width: 300px;
-        height: 400px;
+        width: 150px;
+        height: 200px;
         margin: 10px; 
         border-radius: 20px;
         background-color: #19141f;
