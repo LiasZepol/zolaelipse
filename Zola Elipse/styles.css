@@ -503,9 +503,8 @@ header{
     transition: .5s;
 }
 
-.boton-compra:hover{
-    opacity: 100%;
-    transition: .5s;
+.product-container a{
+    text-decoration: none;
 }
 
 
