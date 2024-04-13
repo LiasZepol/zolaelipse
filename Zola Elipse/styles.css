@@ -488,6 +488,7 @@ header{
     height: 40%;
     margin: 0;
     font-family: 'Quantico', sans-serif;
+    font-size: large;
     color: #fff;
     display: flex;
     justify-content: center;
@@ -507,6 +508,26 @@ header{
 
 .product-container a{
     text-decoration: none;
+}
+
+.product-description{
+    width: 90vw;
+    height: 600px;
+    margin-top: 150px;
+    opacity: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    animation-name: apear;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+    border-radius: 20px;
+    background-color: #19141f;
+    backdrop-filter: blur(5px);
+    box-shadow: 0px 7px 25px rgba(130, 130, 130, 0.2);
+    overflow: hidden; 
 }
 
 
