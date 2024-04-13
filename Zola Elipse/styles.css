@@ -535,6 +535,8 @@ header{
     width: auto;
     height: auto;
     color: #e8e6e9;
+    font-size: x-large;
+    font-family: 'Quantico', sans-serif;
 }
 
 .product-gallery{
@@ -557,17 +559,18 @@ header{
 }
 
 .product-description{
-    margin: 10px;
+    margin: 20px;
     margin-top: 50px;
     text-align: justify;
     color: #e8e6e9;
     font-family: 'Quicksand', sans-serif;
-    font-size: 20px;
+    font-size: large;
 }
 .button-comprar{
     width: 200px;
     height: 40px;
     margin-top: 50px;
+    margin-bottom: 50px;
     border-style: none;
     border-radius: 15px;
     display: flex;
